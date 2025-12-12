@@ -51,11 +51,11 @@
             <artifactId>selenium-java</artifactId>
             <version>4.22.0</version>
         </dependency>
- <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-devtools-v121</artifactId> <!-- <--- **THIS IS THE KEY PART TO UPDATE** -->
-        <version>4.22.0</version> <!-- Match your main Selenium version -->
-    </dependency>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools</artifactId>
+    <version>4.0.0-rc-1</version>
+</dependency>
         <!-- TestNG (Main Test Engine) -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -180,6 +180,7 @@
     </build>
 
 </project>
+
 
 
 
