@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Framework Task">
+    <test name="Ultima Automation" preserve-order="true">
+        <classes>
+            <class name="com.paxera.ultima.tests.LoginTest"/>
+            <class name="com.paxera.ultima.tests.AddPatientLoginTest"/>
+           <class name="com.paxera.ultima.tests.AdvancedSearchTest"/>
+           <class name="com.paxera.ultima.tests.AttachPatientDocAndInsuranceDocTest"/>
+           <class name="com.paxera.ultima.tests.CachStudyTest"/>
+            <class name="com.paxera.ultima.tests.CompareStudiesTest"/>
+            <class name="com.paxera.ultima.tests.CriticalResultsTest">
+                <methods>
+                    <include name="verifySetCriticalFinding"/>
+                    <include name="verifyLogNotification"/>
+                </methods>
+            </class>
+            <class name="com.paxera.ultima.tests.DeleteStudyTest"/>
+           <class name="com.paxera.ultima.tests.EditStudyInformationTest"/>
+           <class name="com.paxera.ultima.tests.ExportStudiesTest"/>
+           <class name="com.paxera.ultima.tests.LoginTest"/>
+           <class name="com.paxera.ultima.tests.MarkTest"/>
+           <class name="com.paxera.ultima.tests.MergeTest"/>
+           <class name="com.paxera.ultima.tests.MessagesTest"/>
+           <class name="com.paxera.ultima.tests.SearchTest"/>
+            <class name="com.paxera.ultima.tests.SendHL7Test"/>
+            <class name="com.paxera.ultima.tests.SettingsTest"/>
+           <class name="com.paxera.ultima.tests.ShareToCarePassportPageTest"/>
+            <class name="com.paxera.ultima.tests.ShareToCareRadTest"/>
+           <class name="com.paxera.ultima.tests.ShareWithPatientPageTest"/>
+           <class name="com.paxera.ultima.tests.ToolsTest"/>
+            <class name="com.paxera.ultima.tests.URLShareTest"/>
+           <class name="com.paxera.ultima.tests.ViewInZFPTest"/>
+            <class name="com.paxera.ultima.tests.ViewLogInformationTest"/>
+            <class name="com.paxera.ultima.tests.ViewMedicalRecordsTest"/>
+            <class name="com.paxera.ultima.tests.ViewSeriesTest"/>
+            <class name="com.paxera.ultima.tests.WorklistTest"/>
+        </classes>
+    </test>
+</suite>

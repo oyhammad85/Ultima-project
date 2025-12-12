@@ -1,0 +1,81 @@
+package com.paxera.ultima.platform;
+
+import com.paxera.ultima.screen.*;
+
+public class UltimaViewer {
+
+    public LoginPage loginPage;
+    public UltimaPluginPage ultimaPluginPage;
+    public WorkListPage workListPage;
+    public SuccessPopup successPopup;
+    public BaseScreen baseScreen;
+    public ConfirmPopup confirmPopup;
+    public ErrorPopup errorPopup;
+    public FiltersPopup filtersPopup;
+    public EditStudyInformationPage editStudyInformationPage;
+    public SetCriticalFindingsPage setCriticalFindingsPage;
+    public MergeSplitStudyPage mergeSplitStudyPage;
+    public AttachPatientDocPage attachPatientDocPage;
+    public AttachDocumentPopup attachDocumentPopup;
+    public AttachInsuranceDocPage attachInsuranceDocPage;
+    public AdvancedSearchPage advancedSearchScreen;
+    public CustomerSettingsPage customerSettingsPage;
+    public ProfileMenuPage profileMenuPage;
+    public SettingsPage settingsScreen;
+    public LocationSettingsPage locationSettingsPage;
+    public CacheSettingsPopup cacheSettingsPopup;
+    public CacheSettingsPage cacheSettingsPage;
+    public ViewerSettingsPage viewerSettingsPage;
+    public URLSharePage uRLSharePage;
+    public ShareWithPatientPage shareWithPatientPage;
+    public ShareToCarePassportPage shareCarePassport;
+    public ShareToCareRadPage shareCareRad;
+    public ViewSeriesPage viewInSeriesScreen;
+    public AddPatientLoginPage addPatientloginScreen;
+    public ViewLogInformationPage viewLogInformationPage;
+    public SendHL7Page sendHL7Page;
+    public ToolsPage toolsPage;
+    public RecycleBinPage recycleBinPage;
+    public BreakTheGlassPage breakTheGlassPage;
+    public WarningPopup warningPopup;
+    public BreakTheGlassConfirmationPopup breakTheGlassConfirmationPopup;
+public MessagesPage messagesPage;
+    public UltimaViewer() {
+        loginPage = new LoginPage();
+        ultimaPluginPage = new UltimaPluginPage();
+        workListPage = new WorkListPage();
+        successPopup = new SuccessPopup();
+        baseScreen = new BaseScreen();
+        confirmPopup = new ConfirmPopup();
+        errorPopup = new ErrorPopup();
+        filtersPopup = new FiltersPopup();
+        editStudyInformationPage = new EditStudyInformationPage();
+        setCriticalFindingsPage = new SetCriticalFindingsPage();
+        mergeSplitStudyPage = new MergeSplitStudyPage();
+        attachPatientDocPage = new AttachPatientDocPage();
+        attachDocumentPopup = new AttachDocumentPopup();
+        attachInsuranceDocPage = new AttachInsuranceDocPage();
+        advancedSearchScreen = new AdvancedSearchPage();
+        customerSettingsPage = new CustomerSettingsPage();
+        profileMenuPage = new ProfileMenuPage();
+        settingsScreen = new SettingsPage();
+        locationSettingsPage = new LocationSettingsPage();
+        cacheSettingsPopup = new CacheSettingsPopup();
+        cacheSettingsPage = new CacheSettingsPage();
+        viewerSettingsPage = new ViewerSettingsPage();
+        uRLSharePage = new URLSharePage();
+        shareWithPatientPage = new ShareWithPatientPage();
+        shareCarePassport = new ShareToCarePassportPage();
+        shareCareRad = new ShareToCareRadPage();
+        viewInSeriesScreen = new ViewSeriesPage();
+        addPatientloginScreen = new AddPatientLoginPage();
+        viewLogInformationPage = new ViewLogInformationPage();
+        sendHL7Page = new SendHL7Page();
+        toolsPage = new ToolsPage();
+        recycleBinPage = new RecycleBinPage();
+        breakTheGlassPage = new BreakTheGlassPage();
+        warningPopup = new WarningPopup();
+        breakTheGlassConfirmationPopup = new BreakTheGlassConfirmationPopup();
+        messagesPage = new MessagesPage();
+    }
+}
