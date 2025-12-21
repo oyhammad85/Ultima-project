@@ -37,4 +37,6 @@
             <class name="com.paxera.ultima.tests.WorklistTest"/>
         </classes>
     </test>
+    
 </suite>
+
